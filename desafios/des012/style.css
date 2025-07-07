@@ -26,23 +26,37 @@ header h1{
     font-family: var(--fonte2);
     font-weight: 300;
     font-size: 10vw;
+    font-variant: small-caps;
 }
 
 header > p{
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     font-family: var(--fonte1);
 
 }
 
+a{
+    text-decoration: none;
+    color: var(--cor02);
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
     font-family: var(--fonte3);
     font-size: 3.5vw;
 }
 
 section > p{
-    line-height: 2em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     padding-left: 30px;
-    margin: 50px 0px 0px 0px;
     padding-right: 0px;
 }
 
@@ -56,8 +70,11 @@ section > p{
 }
 
 .imagem_01 > p{
-    border: 2px solid black;
-    padding-right: 10px;
+    background-color: rgba(0, 0, 0, 0.116);
+    display: inline-block;
+    padding: 5px;
+    margin-left: 5px;
+
 }
 
 .imagem_02{
@@ -68,3 +85,17 @@ section > p{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+.imagem_02 > p{
+    background-color: rgba(0, 0, 0, 0.116);
+    display: inline-block;
+    padding: 5px;
+    margin-left: 5px;
+}
+footer{
+    background-color: var(--cor01);
+    color: var(--cor02);
+    font-family: var(--fonte1);
+    text-align: center;
+    padding: 10px;
+}
+
